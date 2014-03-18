@@ -1,0 +1,49 @@
+.navbar {
+	background: $color-brand-alt;
+	color: $color-white;
+	font-family: $font-heading;
+	font-weight: $font-heading-weight;
+	a {
+		display: inline-block;
+		padding: 1.5em 0.75em;
+		color: $color-white;
+		transition: all 0.05s linear;
+		&:focus, &:hover {
+			background-color: $color-brand;
+		}
+		&:active {
+			background-color: $color-white;
+			color: $color-brand;
+		}
+	}
+}
+
+.navbar-title {
+	margin: 0;
+	margin: 0 0 0 -0.75em;
+	font-size: 1em;
+	line-height: 1.5em;
+	a {
+		width: 10em;
+		background-image: url('../images/pharmaxo.png');
+		background-position: 1em 1.5em;
+		background-repeat: no-repeat;
+		text-indent: -9999em;
+	}
+}
+
+.navbar-nav {
+	float: right;
+	margin: 0 -0.75em 0 0;
+	padding: 0;
+	line-height: 1.5em;
+	list-style: none;
+	a {
+		padding: 1.5em 0.75em;
+	}
+}
+
+.navbar-nav__item {
+	float: left;
+	display: inline;
+}

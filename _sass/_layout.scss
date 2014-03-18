@@ -1,0 +1,40 @@
+.container {
+	margin: 0 auto;
+	padding: 0 1.5em;
+	@include clearfix;
+}
+
+.container-nested {
+	margin: 0;
+	padding: 0;
+	@include clearfix;
+}
+
+.fixed-800 {
+	width: 736px;
+}
+
+.fixed-1024 {
+	width: 960px;
+}
+
+.fixed-1280 {
+	width: 1216px;
+}
+
+.column, .columns {
+	float: left;
+}
+
+.one { width: 8.333% }
+.two { width: 16.666% }
+.three { width: 25% }
+.four { width: 33.333% }
+.five { width: 41.666% }
+.six { width: 50% }
+.seven { width: 58.333% }
+.eight { width: 66.666% }
+.nine { width: 75% }
+.ten { width: 83.333% }
+.eleven { width: 91.666% }
+.twelve { width: 100% }

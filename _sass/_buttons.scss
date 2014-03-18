@@ -1,0 +1,20 @@
+.btn {
+	height: 2em;
+	margin: 0;
+	padding: 0.25em 0.75em !important;
+	line-height: 1.25em;
+	color: $color-black;
+	border: 1px solid $color-grey-light;
+	background: $color-white-off;
+	border-radius: 0.25em;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: $font-heading-weight;
+	cursor: pointer;
+}
+
+.btn-normal {
+	background: $color-brand;
+	border-color: $color-brand-alt;
+	color: $color-white;
+}

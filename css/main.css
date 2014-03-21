@@ -227,8 +227,6 @@ thead tr {
   background: #f3f3f3; }
 
 tr {
-  display: table;
-  width: 100%;
   border-bottom: 1px solid #c9c9c9;
   transition: all 0.05s linear; }
   tr:focus, tr:hover {

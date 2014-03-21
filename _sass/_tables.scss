@@ -13,8 +13,6 @@ thead {
 }
 
 tr {
-	display: table;
-	width: 100%;
 	border-bottom: 1px solid $color-grey-light;
 	transition: all 0.05s linear;
 	&:focus, &:hover {

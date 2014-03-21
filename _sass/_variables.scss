@@ -13,4 +13,4 @@ $color-white-off: #F3F3F3;
 $color-brand: #009CDB;
 $color-brand-alt: darken($color-brand, 10%);
 
-$color-highlight: $color-brand;
+$color-highlight: lighten($color-brand, 50%);

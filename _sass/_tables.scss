@@ -1,0 +1,59 @@
+table {
+	width: 100%;
+	margin-top: 1.5em;
+	border-collapse: collapse;
+	border: 1px solid $color-grey-light;
+	border-bottom: none;
+}
+
+thead {
+	tr {
+		background: $color-white-off;
+	}
+}
+
+tr {
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid $color-grey-light;
+	transition: all 0.05s linear;
+	&:focus, &:hover {
+		background: $color-white-off;
+	}
+}
+
+th, td {
+	height: 2em;
+	padding: 0.75em;
+}
+
+th {
+	font-family: $font-heading;
+	font-weight: $font-heading-weight;
+	text-align: left;
+}
+
+.table-btns {
+	padding: 0.5em 0.75em;
+	text-align: right;
+}
+
+.selected-row {
+	background: $color-white-off;
+	background-image: linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%),
+		linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%),
+		linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%),
+		linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%);
+	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+	background-position: top left, bottom left, top left, top right;
+	background-size: 1px 1px;
+	&:focus, &:hover {
+		background-image: linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%),
+			linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%),
+			linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%),
+			linear-gradient(0deg, $color-highlight 0%, $color-highlight 100%);
+		background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+		background-position: top left, bottom left, top left, top right;
+		background-size: 1px 1px;
+	}
+}

@@ -22,6 +22,11 @@
 	width: 1216px;
 }
 
+.fluid {
+	min-width: 960px;
+	max-width: 1616px;
+}
+
 .column, .columns {
 	float: left;
 }

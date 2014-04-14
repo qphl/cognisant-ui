@@ -42,3 +42,8 @@ th {
 		background: $color-highlight;
 	}
 }
+
+.disabled-row {
+	background: $color-white-off;
+	color: $color-grey;
+}

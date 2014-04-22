@@ -194,7 +194,7 @@ label {
   font-style: italic;
   text-align: right; }
 
-input {
+input[type="text"] {
   height: 2em;
   padding: 0.25em;
   border: 1px solid #c9c9c9;
@@ -222,6 +222,21 @@ input {
     float: left;
     display: inline-block;
     width: 30%; }
+
+.checkbox-group {
+  float: right;
+  display: inline-block;
+  width: 70%; }
+  .checkbox-group input {
+    height: 1.5em;
+    width: 1.5em;
+    background: normal;
+    border: normal;
+    border-radius: none; }
+  .checkbox-group label {
+    display: inline;
+    width: auto;
+    padding: 0 0 0 0.5em; }
 
 table {
   width: 100%;

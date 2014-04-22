@@ -234,9 +234,11 @@ input[type="text"] {
     border: normal;
     border-radius: none; }
   .checkbox-group label {
-    display: inline;
-    width: auto;
-    padding: 0 0 0 0.5em; }
+    display: inline-block;
+    width: 70%;
+    padding: 0 0 0 0.5em;
+    font-style: normal;
+    text-align: left; }
 
 table {
   width: 100%;

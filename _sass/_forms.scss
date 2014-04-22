@@ -18,7 +18,7 @@ label {
 	text-align: right;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"], input[type="password"] {
 	height: 2em;
 	padding: 0.25em;
 	border: 1px solid $color-grey-light;

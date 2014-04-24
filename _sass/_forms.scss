@@ -30,11 +30,28 @@ input[type="text"], input[type="email"], input[type="password"] {
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
 }
 
+textarea {
+	height: 6em;
+	padding: 0.25em;
+	border: 1px solid $color-grey-light;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	-webkit-appearance: none;
+	border-radius: 0.25em;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);	
+}
+
 .input-group {
 	width: 100%;
 	margin-bottom: 1em;
 	@include clearfix;
 	input {
+		float: left;
+		display: inline-block;
+		width: 70%;
+	}
+	textarea {
 		float: left;
 		display: inline-block;
 		width: 70%;

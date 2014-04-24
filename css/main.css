@@ -205,6 +205,16 @@ input[type="text"], input[type="email"], input[type="password"] {
   border-radius: 0.25em;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.05); }
 
+select {
+  height: 2em;
+  padding: 0.25em;
+  border: 1px solid #c9c9c9;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  border-radius: 0.25em;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.05); }
+
 textarea {
   height: 6em;
   padding: 0.25em;

@@ -31,7 +31,6 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 select {
-	height: 2em;
 	padding: 0.25em;
 	border: 1px solid $color-grey-light;
 	font-family: inherit;
@@ -63,6 +62,11 @@ textarea {
 		width: 70%;
 	}
 	textarea {
+		float: left;
+		display: inline-block;
+		width: 70%;
+	}
+	.select-multiple {
 		float: left;
 		display: inline-block;
 		width: 70%;

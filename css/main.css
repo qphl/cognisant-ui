@@ -206,7 +206,6 @@ input[type="text"], input[type="email"], input[type="password"] {
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.05); }
 
 select {
-  height: 2em;
   padding: 0.25em;
   border: 1px solid #c9c9c9;
   font-family: inherit;
@@ -240,6 +239,10 @@ textarea {
     display: inline-block;
     width: 70%; }
   .input-group textarea {
+    float: left;
+    display: inline-block;
+    width: 70%; }
+  .input-group .select-multiple {
     float: left;
     display: inline-block;
     width: 70%; }

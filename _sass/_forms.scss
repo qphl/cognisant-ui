@@ -28,6 +28,9 @@ input[type="text"], input[type="email"], input[type="password"] {
 	-webkit-appearance: none;
 	border-radius: 0.25em;
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);
+	&[disabled] {
+		background: $color-white-off;
+	}
 }
 
 select {
@@ -76,6 +79,18 @@ textarea {
 		display: inline-block;
 		width: 30%;
 	}
+	&.error {
+		input, textarea {
+			border-color: $color-danger;
+			background: lighten($color-danger, 50%);
+		}
+		.input-error-message {
+			display: inline-block;
+			float: right;
+			width: 70%;
+			color: $color-danger;
+		}
+	}
 }
 
 .checkbox-group {
@@ -95,5 +110,10 @@ textarea {
 		padding: 0 0 0 0.5em;
 		font-style: normal;
 		text-align: left;
+	}
+	.input-error-message {
+		float: left !important;
+		width: 70%;
+		padding: 0 0 0 2.175em;
 	}
 }

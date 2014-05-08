@@ -204,6 +204,8 @@ input[type="text"], input[type="email"], input[type="password"] {
   -webkit-appearance: none;
   border-radius: 0.25em;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.05); }
+  input[type="text"][disabled], input[type="email"][disabled], input[type="password"][disabled] {
+    background: #f3f3f3; }
 
 select {
   padding: 0.25em;
@@ -250,6 +252,14 @@ textarea {
     float: left;
     display: inline-block;
     width: 30%; }
+  .input-group.error input, .input-group.error textarea {
+    border-color: #e82c0c;
+    background: #fef6f5; }
+  .input-group.error .input-error-message {
+    display: inline-block;
+    float: right;
+    width: 70%;
+    color: #e82c0c; }
 
 .checkbox-group {
   float: right;
@@ -267,6 +277,10 @@ textarea {
     padding: 0 0 0 0.5em;
     font-style: normal;
     text-align: left; }
+  .checkbox-group .input-error-message {
+    float: left !important;
+    width: 70%;
+    padding: 0 0 0 2.175em; }
 
 table {
   width: 100%;

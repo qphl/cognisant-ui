@@ -177,6 +177,10 @@ h3 {
 .btn-danger {
   color: #e82c0c; }
 
+.btn-disabled {
+  color: #c9c9c9;
+  cursor: default; }
+
 fieldset {
   margin: 1.5em 0 0;
   padding: 0.75em;

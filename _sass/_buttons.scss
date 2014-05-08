@@ -22,3 +22,8 @@
 .btn-danger {
 	color: $color-danger;
 }
+
+.btn-disabled {
+	color: $color-grey-light;
+	cursor: default;
+}

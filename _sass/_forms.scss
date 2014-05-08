@@ -12,7 +12,6 @@ legend {
 }
 
 label {
-	height: 2em;
 	padding: 0.25em 0.5em;
 	font-style: italic;
 	text-align: right;
@@ -97,7 +96,9 @@ textarea {
 	float: right;
 	display: inline-block;
 	width: 70%;
+	@include clearfix;
 	input {
+		float: left;
 		height: 1.5em;
 		width: 1.5em;
 		background: normal;
@@ -105,15 +106,11 @@ textarea {
 		border-radius: none;
 	}
 	label {
+		float: left;
 		display: inline-block;
-		width: 70%;
+		width: 90%;
 		padding: 0 0 0 0.5em;
 		font-style: normal;
 		text-align: left;
-	}
-	.input-error-message {
-		float: left !important;
-		width: 70%;
-		padding: 0 0 0 2.175em;
 	}
 }

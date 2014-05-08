@@ -193,7 +193,6 @@ legend {
   font-weight: 500; }
 
 label {
-  height: 2em;
   padding: 0.25em 0.5em;
   font-style: italic;
   text-align: right; }
@@ -268,23 +267,27 @@ textarea {
 .checkbox-group {
   float: right;
   display: inline-block;
-  width: 70%; }
+  width: 70%;
+  zoom: 1; }
+  .checkbox-group:before, .checkbox-group:after {
+    content: "";
+    display: table; }
+  .checkbox-group:after {
+    clear: both; }
   .checkbox-group input {
+    float: left;
     height: 1.5em;
     width: 1.5em;
     background: normal;
     border: normal;
     border-radius: none; }
   .checkbox-group label {
+    float: left;
     display: inline-block;
-    width: 70%;
+    width: 90%;
     padding: 0 0 0 0.5em;
     font-style: normal;
     text-align: left; }
-  .checkbox-group .input-error-message {
-    float: left !important;
-    width: 70%;
-    padding: 0 0 0 2.175em; }
 
 table {
   width: 100%;

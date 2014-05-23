@@ -62,6 +62,10 @@ textarea {
 		float: left;
 		display: inline-block;
 		width: 70%;
+		&.small {
+			width: 30%;
+			padding-right: 0.25em;
+		}
 	}
 	textarea {
 		float: left;

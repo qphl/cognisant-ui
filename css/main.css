@@ -247,10 +247,10 @@ textarea {
       width: 25%;
       margin-right: 0.25em; }
     .input-group input.medium {
-      width: 40%;
-      margin-left: 0.25em; }
+      width: 40%; }
   .input-group select {
-    float: left; }
+    float: left;
+    margin-left: 0.25em; }
   .input-group textarea {
     float: left;
     display: inline-block;

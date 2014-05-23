@@ -246,6 +246,9 @@ textarea {
     .input-group input.small {
       width: 25%;
       margin-right: 0.25em; }
+    .input-group input.medium {
+      width: 40%;
+      margin-left: 0.25em; }
   .input-group select {
     float: left; }
   .input-group textarea {

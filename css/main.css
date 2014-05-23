@@ -246,11 +246,8 @@ textarea {
     .input-group input.small {
       width: 25%;
       margin-right: 0.25em; }
-    .input-group input.medium {
-      width: 40%; }
   .input-group select {
-    float: left;
-    margin-left: 0.25em; }
+    float: left; }
   .input-group textarea {
     float: left;
     display: inline-block;
@@ -259,6 +256,8 @@ textarea {
     float: left;
     display: inline-block;
     width: 70%; }
+    .input-group .select-multiple.tall {
+      height: 25em; }
   .input-group label {
     float: left;
     display: inline-block;

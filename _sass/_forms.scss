@@ -66,13 +66,9 @@ textarea {
 			width: 25%;
 			margin-right: 0.25em;
 		}
-		&.medium {
-			width: 40%;
-		}
 	}
 	select {
 		float: left;
-		margin-left: 0.25em;
 	}
 	textarea {
 		float: left;
@@ -83,6 +79,9 @@ textarea {
 		float: left;
 		display: inline-block;
 		width: 70%;
+		&.tall {
+			height: 25em;
+		}
 	}
 	label {
 		float: left;

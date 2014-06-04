@@ -55,11 +55,17 @@ textarea {
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.05);	
 }
 
+.form-text {
+	display: inline-block;
+	margin: 0.25em 0;
+	line-height: normal;
+}
+
 .input-group {
 	width: 100%;
 	margin-bottom: 1em;
 	@include clearfix;
-	input {
+	input, .form-text {
 		float: left;
 		display: inline-block;
 		width: 70%;
@@ -112,6 +118,8 @@ textarea {
 		float: left;
 		height: 1.5em;
 		width: 1.5em;
+		margin-left: 0;
+		margin-right: 0;
 		background: normal;
 		border: normal;
 		border-radius: none;

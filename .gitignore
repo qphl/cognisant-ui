@@ -9,3 +9,6 @@
 # Sass and Jekyll
 .sass*
 _site
+
+# Grunt
+node_modules
